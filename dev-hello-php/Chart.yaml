@@ -7,4 +7,4 @@ version: 1.0.0
 dependencies:
   - name: microservice
     version: "1.0.0"
-    repository: "https://github.com/victordomoto/php-workload-chart"
+    repository: "https://github.com/victordomoto/php-workload-chart/charts/php"
