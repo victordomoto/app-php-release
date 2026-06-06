@@ -1,0 +1,14 @@
+apiVersion: v2
+name: dev-hello-php
+description: Release chart for hello-php app on homelab
+type: application
+version: 1.0.0
+
+dependencies:
+  - name: microservice
+    version: "1.0.0"
+    # Once you publish your charts repo via GitHub Pages, replace with:
+    # repository: "https://<your-org>.github.io/charts"
+    #
+    # For local/homelab use without a chart museum, use a local path:
+    repository: "file://../../../charts/microservice"
