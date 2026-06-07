@@ -7,4 +7,4 @@ version: 1.0.0
 dependencies:
   - name: microservice
     version: "1.0.0"
-    repository: "ghcr.io/victordomoto/charts"
+    repository: "oci://ghcr.io/victordomoto/charts"
