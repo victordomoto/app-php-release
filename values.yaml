@@ -13,7 +13,7 @@ microservice:
 
   ingress:
     enabled: true
-    className: haproxy
+    #className: haproxy
     host: hello-php.homelab.local    
 
   env:
