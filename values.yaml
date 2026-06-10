@@ -13,9 +13,8 @@ microservice:
 
   ingress:
     enabled: true
-    className: nginx
-    host: hello-php.homelab.local    # TODO: replace with your homelab DNS/hostname
-    # className: nginx               # uncomment if using nginx ingress controller
+    className: haproxy
+    host: hello-php.homelab.local    
 
   env:
     APP_ENV: dev
