@@ -13,8 +13,11 @@ microservice:
 
   ingress:
     enabled: true
-    className: ""
-    host: hello-php.homelab.local    
+    className: haproxy
+    host: hello-php.homelab.local
+    tls:
+      enabled: true
+      clusterIssuer: selfsigned   
 
   env:
     APP_ENV: dev

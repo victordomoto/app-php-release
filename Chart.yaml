@@ -2,9 +2,9 @@ apiVersion: v2
 name: dev-hello-php
 description: Release chart for hello-php app on homelab
 type: application
-version: 1.0.1
+version: 1.0.2
 
 dependencies:
   - name: microservice
-    version: "1.0.1"
+    version: "1.0.2"
     repository: "oci://ghcr.io/victordomoto/charts"
